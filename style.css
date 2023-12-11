@@ -1,0 +1,73 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    margin: 50px auto;
+    padding:40px;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(160, 54, 160);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+}
+/*
+button:hover {
+    background-color: rgb(202, 104, 202);
+}
+*/
+#message {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#brPokusaja {
+    display: flex;
+    
+}
+
+@media (max-width: 500px) {
+    div {
+        background-color: #ffffff;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 50px auto;
+        border: 1px solid #ddd;
+    }
+  }
+  
